@@ -7,6 +7,7 @@
 <title>سام فود | منوی دیجیتال</title>
 
 <style>
+
 *{
 box-sizing:border-box;
 }
@@ -22,16 +23,17 @@ header{
 background:#14283d;
 color:white;
 text-align:center;
-padding:45px 20px 35px;
+padding:42px 20px 32px;
 }
 
 .logo{
 font-size:42px;
 font-weight:bold;
+letter-spacing:1px;
 }
 
 .slogan{
-margin-top:12px;
+margin-top:10px;
 font-size:15px;
 opacity:.9;
 }
@@ -39,7 +41,7 @@ opacity:.9;
 .container{
 max-width:850px;
 margin:auto;
-padding:20px 15px 60px;
+padding:15px 15px 50px;
 }
 
 .category{
@@ -57,6 +59,7 @@ margin-bottom:15px;
 margin:0;
 color:#14283d;
 font-size:24px;
+white-space:nowrap;
 }
 
 .line{
@@ -69,33 +72,21 @@ background:#d6d2c8;
 background:white;
 border-radius:14px;
 padding:18px;
-margin-bottom:12px;
+margin-bottom:13px;
 box-shadow:0 3px 12px rgba(0,0,0,.06);
-}
-
-.item-top{
-display:flex;
-justify-content:space-between;
-align-items:center;
-gap:15px;
 }
 
 .item-name{
 font-size:18px;
 font-weight:bold;
-}
-
-.price{
-color:#a87916;
-font-weight:bold;
-white-space:nowrap;
+color:#222;
+margin-bottom:9px;
 }
 
 .description{
 color:#777;
 font-size:13px;
-line-height:1.9;
-margin:8px 0 0;
+line-height:2;
 }
 
 footer{
@@ -104,6 +95,7 @@ color:white;
 text-align:center;
 padding:25px;
 font-size:14px;
+line-height:2;
 }
 
 @media(max-width:600px){
@@ -120,14 +112,21 @@ font-size:34px;
 font-size:21px;
 }
 
+.item{
+padding:16px;
+}
+
 .item-name{
 font-size:16px;
 }
 
-.price{
-font-size:14px;
+.description{
+font-size:12px;
+line-height:2;
 }
+
 }
+
 </style>
 </head>
 
@@ -147,6 +146,9 @@ font-size:14px;
 
 <div class="container">
 
+
+<!-- پیتزا -->
+
 <section class="category">
 
 <div class="category-title">
@@ -154,43 +156,74 @@ font-size:14px;
 <div class="line"></div>
 </div>
 
-<div class="item">
-
-<div class="item-top">
-<div class="item-name">
-پیتزا مخصوص سام فود
-</div>
-
-<div class="price">
-قیمت
-</div>
-</div>
-
-<div class="description">
-توضیحات پیتزا اینجا نوشته می‌شود.
-</div>
-
-</div>
 
 <div class="item">
-
-<div class="item-top">
-<div class="item-name">
-پیتزا گوشت و بلو چیز
-</div>
-
-<div class="price">
-قیمت
-</div>
-</div>
-
+<div class="item-name">پیتزا بریسکت</div>
 <div class="description">
-گوشت طعم‌دار، پنیر و سس مخصوص سام فود.
+سینه گوساله آرام‌پز، سس مارینارا، قارچ، پنیر موزارلا، گوجه گیلاسی، پیاز کاراملی، پنیر پارمزان و سس هالوپینو.
+</div>
 </div>
 
+
+<div class="item">
+<div class="item-name">پیتزا پولد بیف</div>
+<div class="description">
+گوشت بخارپز، قارچ، پیاز کاراملی، زیتون، سس بیانکا، سس هالوپینو و پنیر موزارلا.
+</div>
+</div>
+
+
+<div class="item">
+<div class="item-name">پیتزا چیکن پارمزان</div>
+<div class="description">
+سینه مرغ، قارچ، فلفل دلمه رُست‌شده، سس کرم پستو، پنیر موزارلا و پنیر پارمزان.
+</div>
+</div>
+
+
+<div class="item">
+<div class="item-name">پیتزا پپرونی</div>
+<div class="description">
+سوجوک، هالوپینو، زیتون، پنیر موزارلا و سس مارینارا.
+</div>
+</div>
+
+
+<div class="item">
+<div class="item-name">پیتزا سوپریم</div>
+<div class="description">
+ژامبون میکس گوشت و مرغ، هات‌داگ مجاری، پنیر گودا، پنیر موزارلا، فلفل دلمه، سیب‌زمینی سرخ‌شده، قارچ، سس مارینارا و سس قارچ.
+</div>
+</div>
+
+
+<div class="item">
+<div class="item-name">پیتزا بیکن چوریتسو</div>
+<div class="description">
+بیکن ایرلندی، چوریتسو، قارچ، فلفل دلمه، پنیر موزارلا، پنیر چدار، سس مارینارا و پنیر پارمزان.
+</div>
+</div>
+
+
+<div class="item">
+<div class="item-name">پیتزا پپرونی آلفردو</div>
+<div class="description">
+میکس پیتزا پپرونی و پاستا آلفردو، پنیر موزارلا و پنیر پارمزان.
+</div>
+</div>
+
+
+<div class="item">
+<div class="item-name">پیتزا ترکیش پستو</div>
+<div class="description">
+سینه بوقلمون فرآوری‌شده، قارچ، پیاز کاراملی، گردوی کاراملی، پنیر موزارلا، سس پستو و پنیر پارمزان.
+</div>
 </div>
 
 </section>
+
+
+<!-- پاستا -->
 
 <section class="category">
 
@@ -199,43 +232,208 @@ font-size:14px;
 <div class="line"></div>
 </div>
 
+
 <div class="item">
-
-<div class="item-top">
-<div class="item-name">
-پاستا مرغ و بادمجان
-</div>
-
-<div class="price">
-قیمت
-</div>
-</div>
-
+<div class="item-name">پاستا چیکن آلفردو</div>
 <div class="description">
-مرغ، بادمجان و سس مخصوص.
+پنه، سینه مرغ گریل‌شده، سس آلفردو و پنیر پارمزان.
+</div>
 </div>
 
+
+<div class="item">
+<div class="item-name">پاستا کرم پستو</div>
+<div class="description">
+پنه، سینه مرغ گریل‌شده، سس کرم پستو و پنیر پارمزان.
+</div>
+</div>
+
+
+<div class="item">
+<div class="item-name">پاستا مخصوص سام فود (تنوری)</div>
+<div class="description">
+پنه، سینه مرغ، پنیر موزارلا، سس بیانکا، سس پستو، پنیر لبنه و سس سیر و ریحان.
+</div>
 </div>
 
 </section>
 
+
+<!-- برگر -->
+
 <section class="category">
 
 <div class="category-title">
-<h2>🍔 برگر</h2>
+<h2>🍔 برگر زغالی</h2>
 <div class="line"></div>
 </div>
 
+
 <div class="item">
-
-<div class="item-top">
-<div class="item-name">
-سام برگر
-</div>
-
-<div class="price">
-قیمت
+<div class="item-name">برگر مخصوص سام فود</div>
+<div class="description">
+۱۵۰ گرم گوشت گوساله، ۵۰ گرم رست‌بیف، بیکن گریل‌شده، نان مخصوص، سس قارچ، پنیر چدار و دورچین سیب‌زمینی و ذرت.
 </div>
 </div>
 
-<div
+
+<div class="item">
+<div class="item-name">برگر کلاسیک</div>
+<div class="description">
+۱۵۰ گرم گوشت گوساله، نان برگر، سس رنچ، روکولا، خیارشور، دورچین سیب‌زمینی و ذرت، سس هالوپینو و سس مک.
+</div>
+</div>
+
+
+<div class="item">
+<div class="item-name">دبل چیز برگر</div>
+<div class="description">
+۱۵۰ گرم گوشت گوساله، پنیر گودای سوخاری، سس رنچ، پیکل خیار، نان برگر، روکولا، دورچین سیب‌زمینی و ذرت، سس هالوپینو و سس مک.
+</div>
+</div>
+
+
+<div class="item">
+<div class="item-name">بریسکت برگر</div>
+<div class="description">
+۲۰۰ گرم سینه گوساله تنوری، سس رنچ، سس قارچ، پیکل خیار، نان برگر، روکولا، دورچین سیب‌زمینی و ذرت، سس هالوپینو و سس مک.
+</div>
+</div>
+
+
+<div class="item">
+<div class="item-name">چیکن فرایز برگر</div>
+<div class="description">
+شنیسل مرغ سوخاری طعم‌دارشده با سس بوفالو، سس رنچ، پنیر چدار، روکولا، خیارشور، نان برگر، دورچین سیب‌زمینی و ذرت و سس مک.
+</div>
+</div>
+
+
+<div class="item">
+<div class="item-name">فرنچ برگر</div>
+<div class="description">
+۱۵۰ گرم گوشت گوساله، نان با روکش پنیر برشته، سس رنچ، پیاز کاراملی، پنیر گودا، خیارشور، روکولا، دورچین سیب‌زمینی و ذرت، سس هالوپینو و سس مک.
+</div>
+</div>
+
+</section>
+
+
+<!-- استرامبولی -->
+
+<section class="category">
+
+<div class="category-title">
+<h2>🌭 استرامبولی</h2>
+<div class="line"></div>
+</div>
+
+
+<div class="item">
+<div class="item-name">هات‌داگ هالوپینو</div>
+<div class="description">
+یک عدد هات‌داگ مجاری، هالوپینو، سس رنچ، بروسکتای گوجه، دورچین سیب‌زمینی و ذرت و پنیر موزارلا.
+</div>
+</div>
+
+
+<div class="item">
+<div class="item-name">رست‌بیف بروسکتا</div>
+<div class="description">
+۱۵۰ گرم گوشت رست‌شده، بروسکتای گوجه، قارچ بلانچ‌شده، سس رنچ، سس هالوپینو، دورچین سیب‌زمینی و ذرت و پنیر موزارلا.
+</div>
+</div>
+
+
+<div class="item">
+<div class="item-name">بیکن ماشروم</div>
+<div class="description">
+۱۵۰ گرم بیکن، سس قارچ، پنیر موزارلا، بروسکتای گوجه، سس رنچ، سس هالوپینو و دورچین سیب‌زمینی و ذرت.
+</div>
+</div>
+
+</section>
+
+
+<!-- سوخاری و مزه -->
+
+<section class="category">
+
+<div class="category-title">
+<h2>🍗 سوخاری و مزه</h2>
+<div class="line"></div>
+</div>
+
+
+<div class="item">
+<div class="item-name">گلدن کرانچ</div>
+<div class="description">
+ساق مرغ و پوره سیب‌زمینی سوخاری با مغز پنیر موزارلا، دورچین سیب‌زمینی و سس برنیز.
+</div>
+</div>
+
+
+<div class="item">
+<div class="item-name">هانی چیکن فرایز</div>
+<div class="description">
+سه عدد فیله مرغ سوخاری طعم‌دارشده با سس بوفالو، کمی تند و عسلی، دورچین سیب‌زمینی و سس برنیز.
+</div>
+</div>
+
+
+<div class="item">
+<div class="item-name">بوفالو وینگز</div>
+<div class="description">
+۶ عدد بال مرغ، سس بوفالو و دورچین سیب‌زمینی و ذرت.
+</div>
+</div>
+
+
+<div class="item">
+<div class="item-name">دارک پلیت (سینی مزه)</div>
+<div class="description">
+سه عدد بال مرغ اسپایسی، ماست و خیار، قارچ کبابی، بیکن سرخ‌شده با پنیر گودا، سیب‌زمینی سرخ‌شده و چوریتسو.
+</div>
+</div>
+
+</section>
+
+
+<!-- سالاد و پیش غذا -->
+
+<section class="category">
+
+<div class="category-title">
+<h2>🥗 سالاد و پیش‌غذا</h2>
+<div class="line"></div>
+</div>
+
+
+<div class="item">
+<div class="item-name">سالاد سزار گریل</div>
+<div class="description">
+کاهو، گوجه گیلاسی، نان کروتان مزه‌دارشده با سیر، زیتون، ۲۰۰ گرم سینه مرغ گریل، سس سزار کلاسیک و پنیر پارمزان.
+</div>
+</div>
+
+
+<div class="item">
+<div class="item-name">سالاد پینات باتر</div>
+<div class="description">
+کاهو، گوجه گیلاسی، خیار، نان تست طعم‌دار، توت و سیب درایدشده، سس هانی پینات و قارچ گریل.
+</div>
+</div>
+
+
+<div class="item">
+<div class="item-name">سیب‌زمینی سرخ‌شده با چوریتسو و پنیر</div>
+<div class="description">
+سیب‌زمینی خلال سرخ‌شده، پنیر موزارلا، سس پومودرو، چوریتسو سرخ‌شده و پنیر پارمزان.
+</div>
+</div>
+
+
+<div class="item">
+<div class="item-name">سیب‌زمینی سرخ‌شده با بیکن و پنیر چدار</div>
+<div class="description">
+سیب‌زمینی توپی سرخ‌شده، پنیر چدار، بیکن
