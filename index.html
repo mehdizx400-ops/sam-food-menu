@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>سام فود | منوی دیجیتال</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Tahoma, Arial, sans-serif;
+      background: #f7f7f7;
+      color: #222;
+    }
+
+    header {
+      background: #14283d;
+      color: white;
+      text-align: center;
+      padding: 35px 20px;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 36px;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 25px 15px 50px;
+    }
+
+    .category {
+      margin-top: 30px;
+    }
+
+    .category h2 {
+      background: #14283d;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 12px;
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+
+    .item {
+      background: white;
+      border-radius: 14px;
+      padding: 18px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+    }
+
+    .item-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .item h3 {
+      margin: 0;
+      font-size: 19px;
+    }
+
+    .price {
+      color: #b8860b;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+    .description {
+      margin: 10px 0 0;
+      color: #666;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    footer {
+      text-align: center;
+      background: #14283d;
+      color: white;
+      padding: 25px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 30px;
+      }
+
+      .item-top {
+        align-items: flex-start;
+      }
+
+      .item h3 {
+        font-size: 17px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>سام فود</h1>
+  <p>سلامتیت با ارزشه</p>
+  <p>پیتزا • پاستا • برگر</p>
+</header>
+
+<div class="container">
+
+  <section class="category">
+    <h2>🍕 پیتزا</h2>
+
+    <div class="item">
+      <div class="item-top">
+        <h3>پیتزا مخصوص سام فود</h3>
+        <span class="price">قیمت</span>
+      </div>
+      <p class="description">
+        توضیحات محصول اینجا قرار می‌گیرد.
+      </p>
+    </div>
+
+    <div class="item">
+      <div class="item-top">
+        <h3>پیتزا گوشت و بلو چیز</h3>
+        <span class="price">قیمت</span>
+      </div>
+      <p class="description">
+        گوشت طعم‌دار، سس مخصوص و پنیر بلو چیز.
+      </p>
+    </div>
+
+  </section>
+
+
+  <section class="category">
+    <h2>🍝 پاستا</h2>
+
+    <div class="item">
+      <div class="item-top">
+        <h3>پاستا مرغ و بادمجان</h3>
+        <span class="price">قیمت</span>
+      </div>
+      <p class="description">
+        پاستا با مرغ، بادمجان و سس مخصوص.
+      </p>
+    </div>
+
+  </section>
+
+
+  <section class="category">
+    <h2>🍔 برگر</h2>
+
+    <div class="item">
+      <div class="item-top">
+        <h3>سام برگر</h3>
+        <span class="price">قیمت</span>
+      </div>
+      <p class="description">
+        برگر دست‌ساز با پنیر گودا، خیارشور و سس مخصوص.
+      </p>
+    </div>
+
+  </section>
+
+
+  <section class="category">
+    <h2>🥤 نوشیدنی</h2>
+
+    <div class="item">
+      <div class="item-top">
+        <h3>نوشابه</h3>
+        <span class="price">قیمت</span>
+      </div>
+    </div>
+
+  </section>
+
+</div>
+
+<footer>
+  سام فود
+  <br>
+  سلامتیت با ارزشه
+</footer>
+
+</body>
+</html>
